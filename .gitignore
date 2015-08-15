@@ -1,0 +1,6 @@
+*.o
+*.stackdump
+SECOND
+*.mips
+temp.out
+*.exe
