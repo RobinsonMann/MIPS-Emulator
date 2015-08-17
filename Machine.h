@@ -34,7 +34,7 @@ public:
 	unsigned int getRegisterUnsigned(int reg);
 
 	/* Starts execution of the machine */
-	void execute();
+	void execute(bool);
 };
 
 #endif

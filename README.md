@@ -6,7 +6,17 @@ A copy of the instruction set can be found here: https://www.student.cs.uwaterlo
 
 ## Usage
 
-`./MIPS-Emulator.exe <Mips Machine Code> <Register 1> <Register 2>`
+`./MIPS-Emulator.exe <Options> <Mips Machine Code> <Register 1> <Register 2>`
+
+### Options
+
+|--------|-----------------------------------|
+| Option | Notes                             |
+|--------|-----------------------------------|
+| -r     | Prints all registers              |
+| -3     | Print register 3                  |
+| -t     | Traces execution                  |
+|--------|-----------------------------------|
 
 ## IO
 
@@ -18,12 +28,11 @@ As outlined in instruction set (https://www.student.cs.uwaterloo.ca/~cs241/mips/
 
 ## Files
 
-**MIPS-Emulator** -- Main file
+**MIPS-Emulator** -- Main file, handles the machine + options
 **Machine**	-- MIPS machine, can load and execute programs
 **Memory** -- RAM
-**StringUtils** -- String utilities
-**BinaryOperations** -- Binary parsing operations on 32 bit ints
-
+**StringUtils** -- String utilities. stoi
+**BinaryOperations** -- Binary parsing functions. Used to determine info about instructions
 
 
 ## License
