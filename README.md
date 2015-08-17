@@ -18,15 +18,11 @@ As outlined in instruction set (https://www.student.cs.uwaterloo.ca/~cs241/mips/
 
 ## Files
 
-**MIPS-Emulator** -- Main file
-
-**Machine**	-- MIPS machine, can load and execute programs
-
-**Memory** -- RAM
-
-**StringUtils** -- String utilities
-
-**BinaryOperations** -- Binary parsing operations on 32 bit ints
+- **MIPS-Emulator** -- Main file
+- **Machine**	-- MIPS machine, can load and execute programs
+- **Memory** -- RAM
+- **StringUtils** -- String utilities
+- **BinaryOperations** -- Binary parsing operations on 32 bit ints
 
 
 
