@@ -16,6 +16,16 @@ As outlined in instruction set (https://www.student.cs.uwaterloo.ca/~cs241/mips/
 >
 > Loading a word from memory location 0xFFFF0004 places the next byte from standard input into the least-signifcant byte of the destination register.
 
+## Files
+
+**MIPS-Emulator** -- Main file
+**Machine**	-- MIPS machine, can load and execute programs
+**Memory** -- RAM
+**StringUtils** -- String utilities
+**BinaryOperations** -- Binary parsing operations on 32 bit ints
+
+
+
 ## License
 
 The MIT License (MIT)
