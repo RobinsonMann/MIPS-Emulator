@@ -28,11 +28,11 @@ As outlined in instruction set (https://www.student.cs.uwaterloo.ca/~cs241/mips/
 
 ## Files
 
-**MIPS-Emulator** -- Main file, handles the machine + options
-**Machine**	-- MIPS machine, can load and execute programs
-**Memory** -- RAM
-**StringUtils** -- String utilities. stoi
-**BinaryOperations** -- Binary parsing functions. Used to determine info about instructions
+- **MIPS-Emulator** -- Main file, handles the machine + options
+- **Machine**	-- MIPS machine, can load and execute programs
+- **Memory** -- RAM
+- **StringUtils** -- String utilities. stoi
+- **BinaryOperations** -- Binary parsing functions. Used to determine info about instructions
 
 
 ## License
