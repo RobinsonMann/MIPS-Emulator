@@ -4,3 +4,4 @@ SECOND
 *.mips
 temp.out
 *.exe
+test.asm

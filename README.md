@@ -1,12 +1,19 @@
 #MIPS Emulator (University of Waterloo CS241 Dialect)
 
-This is the source code of an emulator for the CS241 Dialect of the MIPS ISA.
+This is the source code of an emulator for the CS241 Dialect of the MIPS instruction set architecture.
 
 A copy of the instruction set can be found here: https://www.student.cs.uwaterloo.ca/~cs241/mips/mipsref.pdf
 
 ## Usage
 
 `./MIPS-Emulator.exe <Mips Machine Code> <Register 1> <Register 2>`
+
+## IO
+
+As outlined in instruction set (https://www.student.cs.uwaterloo.ca/~cs241/mips/mipsref.pdf)
+
+`When a word is stored to memory location 0xFFFF000C the least-signifcant byte (eight bits) of the word are sent to the standard output.
+Loading a word from memory location 0xFFFF0004 places the next byte from standard input into the least-signifcant byte of the destination register.`
 
 ## License
 
