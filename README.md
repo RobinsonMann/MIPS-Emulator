@@ -6,10 +6,10 @@ A copy of the instruction set can be found here: https://www.student.cs.uwaterlo
 
 ## Usage
 
-`
+```
 make
 ./MIPS-Emulator.exe <Options> <Mips Machine Code> <Register 1> <Register 2>
-`
+```
 
 ### Options
 
