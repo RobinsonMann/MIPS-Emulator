@@ -12,8 +12,8 @@ A copy of the instruction set can be found here: https://www.student.cs.uwaterlo
 
 As outlined in instruction set (https://www.student.cs.uwaterloo.ca/~cs241/mips/mipsref.pdf)
 
-`When a word is stored to memory location 0xFFFF000C the least-signifcant byte (eight bits) of the word are sent to the standard output.
-Loading a word from memory location 0xFFFF0004 places the next byte from standard input into the least-signifcant byte of the destination register.`
+> When a word is stored to memory location 0xFFFF000C the least-signifcant byte (eight bits) of the word are sent to the standard output.
+> Loading a word from memory location 0xFFFF0004 places the next byte from standard input into the least-signifcant byte of the destination register.
 
 ## License
 
