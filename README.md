@@ -10,13 +10,11 @@ A copy of the instruction set can be found here: https://www.student.cs.uwaterlo
 
 ### Options
 
-|--------|-----------------------------------|
 | Option | Notes                             |
 |--------|-----------------------------------|
 | -r     | Prints all registers              |
 | -3     | Print register 3                  |
 | -t     | Traces execution                  |
-|--------|-----------------------------------|
 
 ## IO
 
